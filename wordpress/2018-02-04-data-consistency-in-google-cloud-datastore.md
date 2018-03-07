@@ -38,8 +38,8 @@ I had two problems here:
 2. If I move the query into the transaction, Datastore will give me an error `Bad Request - queries inside transactions must have ancestors`. So, the query has to happen out of the transaction, and this brings potential race condition issue in the high-concurrency application.
 
 ![diagram](https://glucn.files.wordpress.com/2018/02/1.png)
-To solve these problems, let's start with two consistency models in Google Cloud Datastore.
 
+To solve these problems, let's start with two consistency models in Google Cloud Datastore.
 
 ## Strong Consistency and Eventually Consistency
 In Datastore, there are two levels of data consistency:
