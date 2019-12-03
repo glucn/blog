@@ -73,9 +73,9 @@ func doSomething() error {
 }
 ```
 So, how can we check if the value of an interface is nil? We need to use the functions in `reflect` package. In our first example, we can validate if the value of b is nil with:
-
+```
 fmt.Printf("b.value == nil is %t\n", b == nil || (reflect.ValueOf(b).Kind() == reflect.Ptr && reflect.ValueOf(b).IsNil()))
-
+```
 #### Conclusion
 
 -   An interface holding nil value is not nil. An interface equals nil only if both type and value are nil.
