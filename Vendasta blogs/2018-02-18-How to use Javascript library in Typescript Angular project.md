@@ -1,6 +1,6 @@
 <h1>How to use Javascript library in Typescript Angular project</h1>
 
-*Originally posted at https://vendasta-blog.appspot.com/blog/edit/BL-VJKFZ2J4*
+*Originally posted at https://vendasta-blog.appspot.com/blog/BL-VJKFZ2J4/*
 
 In the recent Hackathon, I spent my time on introducing a Gantt chart to our team dashboard. The codebase of the team dashboard is an Angular 2 project written in Typescript. I tried several Gantt packages, the one I liked most is a Javascript package <a href="https://dhtmlx.com/docs/products/dhtmlxGantt/" target="_blank">dhtmlxGantt</a>. But how could we use this Javascript package in the project?
 
