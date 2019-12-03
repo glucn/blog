@@ -1,4 +1,4 @@
-<h1>Querying Data in an Array of Nested Structures</h1>
+# Querying Data in an Array of Nested Structures
 
 *Originally posted at https://vendasta-blog.appspot.com/blog/BL-GM52SWNK/*
 
